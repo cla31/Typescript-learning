@@ -20,7 +20,7 @@ class Heros {
     }
   }
 //On peut déclarer nos propre type
-let greenLantern: Heros = new Heros (lantern, healthPoint)
+var greenLantern: Heros = new Heros (lantern, healthPoint)
 
 
 

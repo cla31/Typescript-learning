@@ -6,5 +6,12 @@ var testVariable;
 var lantern = 'Green Lantern';
 //Ou pour un number:
 var healthPoint = 100;
+var Heros = /** @class */ (function () {
+    function Heros(nameLantern, healthPoint) {
+        this.nameLantern = nameLantern;
+        this.healthPoint = healthPoint;
+    }
+    return Heros;
+}());
 //On peut déclarer nos propre type
-// let greenLantern: Heros = new Heros (nameLantern, healthPoint)
+var greenLantern = new Heros(lantern, healthPoint);
